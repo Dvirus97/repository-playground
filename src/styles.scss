@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  direction: inherit;
+  font-family: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  direction: rtl;
+}
+
+.my-overlay-1 {
+  left: 0px;
+}
